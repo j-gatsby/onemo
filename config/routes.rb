@@ -1,7 +1,7 @@
 Omr::Application.routes.draw do
   
   
-  root 'pages#home'
+  root to: 'pages#home'
 
   
   get 'about' => 'Pages#about' 
