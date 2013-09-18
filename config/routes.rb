@@ -1,6 +1,9 @@
 Omr::Application.routes.draw do
   
   
+  resources :pins
+
+
   devise_for :users
   
  
