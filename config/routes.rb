@@ -4,15 +4,16 @@ Omr::Application.routes.draw do
   resources :pins
 
 
-  devise_for :users
-  
- 
-  root to: 'pages#home'
+  devise_for :users
 
   
-  get 'about' => 'Pages#about' 
+ 
+  root to: 'pins#index'
+
+  
+  get 'about' => 'pages#about' 
   
   
-  get 'home' => 'Pages#home'
+  get 'home' => 'pages#home'
 
 end
