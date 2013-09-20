@@ -7,6 +7,8 @@ gem 'simple_form'
 gem 'rmagick'
 gem 'paperclip', '~>3.0'
 gem 'aws-sdk'
+gem 'faker', '1.1.2'
+gem 'rails_12factor'
 
 group :production do
   gem 'pg'
